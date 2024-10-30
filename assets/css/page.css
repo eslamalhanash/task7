@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo", sans-serif;
+}
+
+
+
+.FAQs {
+    padding: 56px 70px 0px;
+}
+
+.FAQs h1 {
+
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.4px;
+    margin-bottom: 50px;
+}
+
+.FAQs .drop_down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.FAQs .drop_down .drop {
+    width: 594px;
+    margin-bottom: 30px;
+    background-color: #F5F5F5;
+    padding: 20px 30px;
+    height: fit-content;
+}
+
+.FAQs .drop_down .drop .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.FAQs .drop_down .drop h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+}
+
+.FAQs .drop_down .drop:nth-child(3) h3 {
+    color: #FF782D;
+
+}
+
+.FAQs .drop_down .drop:nth-child(3) .top {
+    margin-bottom: 20px;
+}
+
+.FAQs .drop_down .drop .content {
+    max-width: 534px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #555555;
+    font-family: "Jost", sans-serif;
+}
+
+.FAQs .photo {
+    width: 50%;
+    min-width: 30%;
+}
+
+.FAQs .drop_down .drop .content .photo{
+    width: 500px;
+    height: 321px;
+}
+
+
+@media screen and (max-width:992px) {
+    
+    .FAQs {
+        padding: 56px 20px 0px;
+    }
+
+}

@@ -1,0 +1,405 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exo", sans-serif;
+}
+
+
+
+header nav {
+    padding: 0px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+header nav .left {
+    display: flex;
+    align-items: center;
+}
+
+header nav .left h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33.6px;
+    color: #000000;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style: none;
+
+}
+
+header nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #000000;
+    padding: 26.5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li.first a {
+    color: #FF782D;
+    background-color: #F5F5F5;
+}
+
+header nav .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+header nav .right p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    font-family: "Jost", sans-serif;
+}
+
+.menu {
+    display: none;
+}
+header .hero {
+    display: flex;
+    background-color: #F5F5F5;
+    height: 60px;
+    padding: 18px 18px;
+
+
+
+}
+header .hero h2{
+font-weight: 400;
+font-size: 14px;
+color: #555555;
+}
+
+
+
+
+.All .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+padding: 60px 70px;
+}
+
+.All .top .right {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.All .top .right img {
+    width: 20px;
+    height: 20px;
+}
+
+.All .top .right .input {
+    max-width: 270px;
+    height: 31px;
+    border-bottom: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.All .top .right .input input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+
+
+.All .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px;
+
+
+}
+
+.All .cards .card {
+    width: 385px;
+
+    border-radius: 20px;
+    border: 1px solid #EAEAEA;
+    margin: 30px;
+}
+
+.All .cards .card .img {
+    position: relative;
+}
+
+.All .cards .card .img img {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.All .cards .card .img button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background-color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Jost", sans-serif;
+    width: 114px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.All .cards .card .container .content {
+    padding: 20px;
+}
+
+.All .cards .card .container .content p {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Jost", sans-serif;
+}
+
+.All .cards .card .container .content p span {
+    color: #555555;
+}
+
+.All .cards .card .container .content h4 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 12px;
+}
+
+.All .cards .card .container .content .hours {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.All .cards .card .container .content .hours .min_box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 16px 0px;
+}
+
+.All .cards .card .container .content .hours .min_box img {
+    width: 16px;
+    height: 16px;
+}
+
+.All .cards .card .container .content .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.All .cards .card .container .content .bottom .price {
+    display: flex;
+    gap: 8px;
+}
+
+.All .cards .card .container .content .bottom .price del {
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: "Jost", sans-serif;
+}
+
+.All .cards .card .container .content .bottom .price span {
+    color: #55BE24;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: "Jost", sans-serif;
+}
+
+.All .cards .card .container .content .bottom a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    font-family: "Jost", sans-serif;
+
+}
+
+.number {
+    width: 288px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.number .circle {
+    padding: 10.5px 18.5px;
+    border: 1px solid #EAEAEA;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    font-family: "Jost", sans-serif;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number .circle:nth-child(2) {
+    border-color: #000000;
+    background-color: black;
+    color: white;
+}
+
+.number .circle:nth-child(1),
+.number .circle:nth-child(5) {
+    padding: 14px;
+}
+
+
+footer {
+    padding: 50px 70px;
+    background-color: #F5F5F5;
+    flex-wrap: wrap;
+margin-top: 70px;
+}
+
+footer .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+footer .cards .card .top {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 32px;
+    max-width: 191px;
+}
+
+footer .cards .card .top h1 {
+    color: black;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33.6px;
+}
+
+footer .cards .card h3 {
+    margin-bottom: 32px;
+    color: Black;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+footer .cards .card p {
+    color: #555555;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    max-width: 341px;
+}
+
+footer .cards .card ul li {
+    list-style: none;
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #555;
+
+}
+
+footer .cards .card ul li:hover {
+    color: #FF782D;
+}
+
+.footer_bottom {
+    text-align: center;
+}
+
+@media screen and (max-width:992px) {
+    header nav {
+        padding: 30px 20px;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    header nav .right {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    
+
+        
+        
+
+
+
+    .All {
+        padding: 65px 20px;
+    
+    }
+
+    .All .cards {
+        justify-content: center;
+    }
+
+
+
+
+    footer {
+        padding: 50px 20px;
+    }
+
+    footer .cards {
+        flex-wrap: wrap;
+    }
+
+
+
+}
